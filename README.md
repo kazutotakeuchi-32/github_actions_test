@@ -1,2 +1,2 @@
-#GitHub Actionsテスト
+# GitHub Actionsテスト
 - EC2にデプロイ
