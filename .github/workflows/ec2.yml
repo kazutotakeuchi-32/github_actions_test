@@ -4,7 +4,6 @@ name: AmazonLinux001
 # トリガーとなる GitHub イベント
 on: 
   [push]
-  branch: [main]
   # workflow_dispatchを指定しておくとGitHubのコンソールから実行可能になる
   
 
