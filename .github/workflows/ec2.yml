@@ -34,8 +34,8 @@ jobs:
          unzip awscliv2.zip
          sudo ./aws/install --update
          aws --version
-         echo "${{ secrets.AWS_ACCESS_KEY }}" 
-         echo "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+         echo "${{ secrets.AWS_ACCESS_KEY }} test" 
+         echo "${{ secrets.AWS_SECRET_ACCESS_KEY }} test"
 
      # AWS CLIにキーを設定をする
      - name: AWS set Credentials
